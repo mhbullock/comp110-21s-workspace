@@ -14,7 +14,6 @@ from random import randint
 
 # Begin your solution here...
 
-from random import randint
 fortune = randint(0, 100)
 
 print("Your fortune cookie says...")
