@@ -30,6 +30,5 @@ else:
             if fortune < 90:
                 print("Don't worry; prosperity will knock on your door soon.")
             else: 
-                print("You have had a good start. Work harder!")
-            
-print("Now, go spread postitive vibes!")
+                print("You have had a good start. Work harder!")          
+print("Now, go spread positive vibes!")

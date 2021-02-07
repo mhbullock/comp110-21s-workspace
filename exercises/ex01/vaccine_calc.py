@@ -21,7 +21,7 @@ from datetime import timedelta
 
 pop: int = int(input("Population: "))
 doses_admin: int = int(input("Doses administered: "))
-doses_pd: int = int (input("Doses per day: "))
+doses_pd: int = int(input("Doses per day: "))
 target_per: int = int(input("Target percent vaccinated: "))
 # User Inputs
 
@@ -40,4 +40,6 @@ future: datetime = today + vac_day
 percent: str = str(target_per) + "%"
 # Find way to print percent sign ?
 
-print("We will reach " + percent + " vaccination in " + str(days) + " days, which falls on " + future.strftime("%B %d, %Y") + ".")
+percent_days = "We will reach " + percent + " vaccination in " + str(days)
+falls_on = " days, which falls on " + future.strftime("%B %d, %Y") + "."
+print(percent_days + falls_on)
